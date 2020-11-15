@@ -13,11 +13,17 @@
 			<h1>Under age <span style='color:red'>&#10006;</span></h1>
 			<p>This person is underage age, which means you cannot sell alcohol to them.</p>
 			</div>
+			
+			<button>Back to check</button>
 		
 		</main>
 	
 	<script>
 		document.addEventListener("keydown", function(event) {
+			location.href = "index.html";
+		});
+		
+		document.querySelector("button").addEventListener("click", function() {
 			location.href = "index.html";
 		});
 	</script>
