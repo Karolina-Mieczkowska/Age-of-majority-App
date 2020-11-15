@@ -13,11 +13,17 @@
 			<h1>Legal age <span style='color:green'>&#9989;</span></h1>
 			<p>This person is of legal age, which means you can sell alcohol to them.</p>
 			</div>
+			
+			<button>Back to check</button>
 		
 		</main>
 	
 	<script>
 		document.addEventListener("keydown", function(event) {
+			location.href = "index.html";
+		});
+		
+		document.querySelector("button").addEventListener("click", function() {
 			location.href = "index.html";
 		});
 	</script>
