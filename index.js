@@ -34,9 +34,9 @@ dateForm.addEventListener("submit", (e) => {
 	var birthYear = document.querySelector(".begin").value;
 	var age = calculateAge(new Date(birthYear));
 	if (age >= 18) {
-		location.href = "file:///C:/Users/waldek/Desktop/Projekty/Age%20of%20majority%20App/index-yes.html";
+		location.href = "index-yes.html";
 	} else {
-		location.href = "file:///C:/Users/waldek/Desktop/Projekty/Age%20of%20majority%20App/index-no.html";
+		location.href = "index-no.html";
 	}
 });
 
